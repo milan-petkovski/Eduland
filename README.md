@@ -16,7 +16,7 @@
 
 ## 📸 Screenshot
 
-![Eduland Screenshot](banner.png)
+![Eduland Screenshot](https://i.postimg.cc/vBRhFZp8/eduland.png)
 
 <hr>
 

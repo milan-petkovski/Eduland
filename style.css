@@ -151,59 +151,13 @@ h3 {
 
 .vector-line { display: none; }
 
-/* ---------- MARQUEE ---------- */
-
-.marquee{
-	width: auto;
-	margin: 0 auto;
-	white-space: nowrap;
-	overflow: hidden;
-  z-index: 1000;
-  padding-bottom: 5px;
-}
-.marquee span{
-	display: inline-block;
-  color: var(--black);
-  text-align: center;
-	padding-left: 100%;
-  vertical-align: middle;
-	padding-bottom: 0;
-	will-change: transform;
-	animation: marquee 25s linear infinite;
-
-}
-.marquee span:hover {
-	animation-play-state: paused;
-}
-.marquee i{
-  color: red;
-}
-@keyframes marquee {
-	0% {
-	  transform: translate(0, 0);
-	}
-	100% {
-	  transform: translate(-100%, 0);
-	}
-}
-@media (prefers-reduced-motion: reduce) {
-	.marquee { 
-	  white-space: normal;
-	}
-	.marquee span {
-	  animation: none;
-	  padding-left: 0;
-    padding-bottom: 5px;
-	}
-}
-
-
 /*-----------------------------------*\
  * #HEADER
 \*-----------------------------------*/
 
 .header {
   position: fixed;
+  padding-top: 10px;
   top: 0;
   left: 0;
   width: 100%;
